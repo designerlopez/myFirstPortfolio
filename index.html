@@ -2,76 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Edgar Lopez</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Template Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
-
-<body class="home light">
-
-    <header class="header">
-        <!-- Fixed Navigation Starts -->
-        <ul>
-            <li >
-                
-                <a href="index.html">
-                    <h2>Home</h2>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Soy Edgar
                 </a>
-            </li>
-            <li>
-                <i></i>
-                <a href="about.html">
-                    <h2>About Me</h2>
-                </a>
-            </li>
-            <li>
-                <a href="portfolio.html">
-                    <h2>Portfolio</h2>
-                </a>
-            </li>
-            <li>
-                <a href="contact.html">
-                    <h2>Contact</h2>
-                </a>
-            </li>
-            <li>
-                <a href="blog.html">
-                    <h2>Blog</h2>
-                </a>
-            </li>
-        </ul>
-    </header>
-    <!-- Header Ends -->
-
-    <div class="contenedor">
-        <div class="imgMe">
-            <img src="https://scontent-bog1-1.xx.fbcdn.net/v/t31.18172-8/27023393_1632502096841618_3338258082796698645_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeERGYWfDhq-NKb5xI9c6_dIPVB5y0fAolY9UHnLR8CiVgFijZNj0aN74UF0DwFMnBLKcbgM0_td6-Y98gMjDL9m&_nc_ohc=rWU9nfzfINIAX-3K2vZ&_nc_ht=scontent-bog1-1.xx&oh=00_AT9QKBkPaL6Q142fXVtyaRL39ymr0n6Sj0BHusFt59l-Xg&oe=6372A3E9" alt="myImage">
-
-        </div>
-
-        <div class="content">
-            <h1>I'M EDGAR LOPEZ. 
-                <span><br> WEB DESIGNER</span>
-                </h1>
-        </div>
-
-
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="inicio">INICIO</a>
+                    <li><a href="sobremi">SOBRE</a>
+                    <li><a href="skills">SKILLS</a>
+                    <li><a href="curriculum">CURRICULUM</a>
+                    <li><a href="portfolio">PORTFOLIO</a>
+                    <li><a href="contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
     </div>
 
-    
-    
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="inicio" class=""inicio>
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/nueva.png" alt="">
+                </div>
+                <h1>EDGAR LOPEZ</h1>
+                <h2>WEB DEVELOPER</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola,soy Edgar Lopez</span> Lorem ipsum dolor sit amet consectetur,
+                 adipisicing elit. Quo modi a beatae, delectus, iure natus quia repudiandae
+                  voluptatibus molestiae tempore eos harum exercitationem tenetur dolores
+                   assumenda quae omnis iste aliquam?</p>
+            
+                   <div class="fila">
+                        <!--Datos personales-->
+                        <div class="col">
+                            <h3>Datos Personales</h3>
+                            <ul>
+                                <li>
+                                    <strong>Cumpleaños</strong>
+                                    24-01-1994
+                                </li>
+                                <li>
+                                    <strong>Teléfono</strong>
+                                    +57 316 662 0216
+                                </li>
+                                <li>
+                                    <strong>Email</strong>
+                                    edgarlopezacevedo@gmail.com
+                                </li>
+                                <li>
+                                    <strong>Website</strong>
+                                    www.edgarlopez.edu.co
+                                </li>
+                                <li>
+                                    <strong>Cargo</strong>
+                                    Freelance
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!--Intereses-->
+                        <div class="col">
+                            <h3>Intereses</h3>
+                            <div class="contenedor-intereses">
+                                <div class="interes">
+                                    <i class="fa-solid fa-gamepad"></i>
+                                    <span>JUEGOS</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-music"></i>
+                                    <span>MUSICA</span>
+                                </div>
+                                <div class="interes">
+                                    <i class="fa-solid fa-plane"></i>
+                                    <span>VIAJAR</span>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <button>
+                        Descargar CVV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                   </button>
+        </div>
+    </section>
 
 
 
-
-
-    
 </body>
-
-
 </html>
