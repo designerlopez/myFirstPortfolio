@@ -1,0 +1,53 @@
+/*html {
+    overflow-x: hidden;
+    height: 100%;
+  }*/
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+    font-weight: 500;
+    line-height: 1.5;
+    position: relative;
+   /* background-size: cover;*/
+    background-position: center;
+    height: 630px;
+    width: 1343px;
+    background-color: rgb(76, 49, 162);
+  }
+  
+  .poppins-font {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  header {
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    top: 100px;
+    display: flex;
+  }
+  
+  h1{
+    font-size: 80px;
+  }
+
+.all>div{
+width: 1343px;
+height: 630px;
+
+}
+
+.imgMe>img{
+    margin-left: 100px;
+    height:630px;
+  
+}
+
+  
+
